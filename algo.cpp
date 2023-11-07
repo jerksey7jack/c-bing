@@ -8,13 +8,13 @@ int main() {
     while (true) {
         cout << "=====DAFTAR MENU PROGRAM=====" << endl;
         cout << "1. Menghitung Berat Badan ideal" << endl;
-        cout << "1. Menghitung Berat Badan ideal" << endl;
         cout << "2. Tabel perkalian" << endl;
+        cout << "3. Tampilkan matriks" << endl;
         cout << "pilih menu pemograman (1/2/3): ";
         cin >> pilih;
 
         switch (pilih) {
-            case 1:
+            case '1':
             int berat;
             double tinggi, kalkulasi;
             string gender, hasil;
@@ -55,7 +55,7 @@ int main() {
             }
             break;
 
-            case 2:
+            case '2':
             int a,b,i;
             cout << "masukan angka : ";
             cin >> i;
@@ -66,11 +66,11 @@ int main() {
             cout<<endl;
             }
 
-            case 3:
+            case '3':
             int A[3][7]={{1,2,13,9,5,3,4},{2,4,6,9,0,10,8},{11,7,9,2,3,5,7}}; 
              int *B[3]; 
              int **C; 
-             int i,j;
+             int m,j;
 	
              B[0]=(int *)malloc(4*sizeof(int)); 
              B[1]=(int *)malloc(4*sizeof(int));
@@ -84,10 +84,10 @@ int main() {
              C[4]=(int *)malloc(4*sizeof(int));
              C[5]=(int *)malloc(4*sizeof(int));
 
-             for (i=0;i<3;i++)
+             for (i=0;m<3;m++)
              {
              for (j=0;j<7;j++)
-             printf("%d ",A[i][j]);
+             printf("%d ",A[m][j]);
              printf("\n");
              }
 
