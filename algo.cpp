@@ -8,8 +8,8 @@ int main() {
     while (true) {
         cout << "=====DAFTAR MENU PROGRAM=====" << endl;
         cout << "1. Menghitung Berat Badan ideal" << endl;
-        cout << "2. " << endl;
-        cout << "gugu" << endl;
+        cout << "1. Menghitung Berat Badan ideal" << endl;
+        cout << "2. Tabel perkalian" << endl;
         cout << "pilih menu pemograman (1/2/3): ";
         cin >> pilih;
 
