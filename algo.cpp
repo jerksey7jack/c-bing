@@ -61,9 +61,10 @@ int main() {
             cin >> i;
             for (a=1; a<=i; a++){
               for (b=1; b<=i; b++){
-              cout<<a*b;}
+              cout<<a*b;
             }
             cout<<endl;
+            }
 
             case 3:
             int A[3][7]={{1,2,13,9,5,3,4},{2,4,6,9,0,10,8},{11,7,9,2,3,5,7}}; 
@@ -85,7 +86,7 @@ int main() {
 
              for (i=0;i<3;i++)
              {
-             for (j=0;j<4;j++)
+             for (j=0;j<7;j++)
              printf("%d ",A[i][j]);
              printf("\n");
              }
